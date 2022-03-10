@@ -2,7 +2,7 @@
 <?php
 
 
-if(!isset($_SESSION['email1'])) {   
+if(!isset($_SESSION['users']['email1'])) {   
 
     header("location: index.php");
 
@@ -10,9 +10,9 @@ if(!isset($_SESSION['email1'])) {
 
     session_start();
 
-    $name = $_SESSION['name1'];
-    $email = $_SESSION['email1'];
-    $token = $_SESSION['token_tok'];
+    $name = $_SESSION['users']['name1'];
+    $email = $_SESSION['users']['email1'];
+    $token = $_SESSION['users']['token_tok'];
 
     $to = "$email";
 
