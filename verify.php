@@ -45,13 +45,15 @@ if(!isset($_SESSION['users']['email1'])) {
 
         require 'news.php';
 
+        echo "worked";
+
     } else {
 
         $errorv = error_get_last()['message'];
 
         echo $errorv;
 
-        echo "yesbvjbvjdbv"
+        echo "not working";
 
     }
 
