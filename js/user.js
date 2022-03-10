@@ -17,8 +17,6 @@ window.addEventListener('load', () => {
         },
         success: function(data) {
 
-            alert(data.trim());
-
             if(data.trim() == "yes") {
 
                 window.location.href = "user.php";

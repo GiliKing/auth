@@ -47,7 +47,7 @@ if(!isset($_SESSION['users']['email1'])) {
 
     } else {
 
-        header("location: error.php");
+        echo $send;
 
     }
 
