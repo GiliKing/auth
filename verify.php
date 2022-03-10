@@ -35,9 +35,9 @@ if(!isset($_SESSION['users']['email1'])) {
     ';
 
     $headers =  'MIME-Version: 1.0' . "\r\n"; 
-    $headers .= 'From: Your name <chrisogili@gmail.com>' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
-
+    $headers .= 'Content-type: text/html; charset=iso-8' . "\r\n"; 
+    $headers .= 'From: Ogili <chrisogili@gmail.com>' . "\r\n";
+    
     $send = mail($to, $subject, $message, $headers);
 
 
@@ -47,7 +47,9 @@ if(!isset($_SESSION['users']['email1'])) {
 
     } else {
 
-        echo $send;
+        $errorv = error_get_last()['message'];
+
+        echo $errorv;
 
     }
 
