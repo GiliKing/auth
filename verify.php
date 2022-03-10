@@ -2,13 +2,14 @@
 <?php
 
 
+session_start();
+
 if(!isset($_SESSION['users']['email1'])) {   
 
-    header("location: index.php");
+    header("location: error.php");
 
 } else {
 
-    session_start();
 
     $name = $_SESSION['users']['name1'];
     $email = $_SESSION['users']['email1'];

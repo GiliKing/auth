@@ -1,3 +1,4 @@
+<?php require 'controller/set.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -238,8 +238,6 @@ document.getElementById('submit').addEventListener('click', () => {
                 },
                 success: function(data) {
 
-                    alert(data.trim());
-
                     if(data.trim() == "err") {
 
                         window.location.href = "error.php";
