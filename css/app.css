@@ -1,0 +1,70 @@
+
+
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: burlywood;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* errors style */
+
+
+.exist {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    color: lightcoral;
+    margin-bottom: 10px;
+    display: none;
+    border-radius: 5px;
+}
+
+.err1, .err2, .err3, .err4 {
+    margin-bottom: 20px;
+    color: red;
+
+}
+
+/* end error style */
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding-left: 30px;
+}
+
+input::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+button {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+input, button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}

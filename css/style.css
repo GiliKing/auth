@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+nav{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a#a1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+li.link1 {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1000px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+li.link2 {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    font-size: 20px;
+}
+
+li.link3 {
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+div.body {
+    margin-top: 20px;
+}
