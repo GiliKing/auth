@@ -22,7 +22,7 @@
                     <a href="login.php">Login</a>
                 </li>
                 <li class="link3">
-                <a href="Register.php">Register</a>
+                <a href="register.php">Register</a>
                 </li>
             </ul>
         </nav>
