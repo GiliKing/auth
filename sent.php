@@ -9,7 +9,6 @@
 <body>
     
 
-<h1>Your Email has been verified.</h1>
-<button><a href="login">Sign In</a></button>
+<h1>A verifcation link has been sent to your email</h1>
 </body>
 </html>

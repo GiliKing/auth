@@ -18,9 +18,7 @@ window.addEventListener('load', () => {
         success: function(data) {
 
             if(data.trim() == "yes") {
-
-                window.location.href = "user";
-
+                
                 // yes verified
 
             }
