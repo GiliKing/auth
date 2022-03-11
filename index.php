@@ -16,13 +16,13 @@
         <nav>
             <ul>
                 <li class="link1">
-                    <a href="index.php">Home</a>
+                    <a href="index">Home</a>
                 </li>
                 <li class="link2">
-                    <a href="login.php">Login</a>
+                    <a href="login">Login</a>
                 </li>
                 <li class="link3">
-                <a href="register.php">Register</a>
+                <a href="register">Register</a>
                 </li>
             </ul>
         </nav>

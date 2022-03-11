@@ -9,7 +9,7 @@ $verify = $_SESSION['users']['verify1'];
 
 if($email == null) {
 
-    header("location: index.php");
+    header("location: index");
 
 }
 

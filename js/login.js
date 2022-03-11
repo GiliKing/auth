@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
                         document.querySelector('#in2').value = "";
                         document.querySelector('#in3').value = "";
 
-                        window.location.href = "user.php";
+                        window.location.href = "user";
                         
                     }
 
@@ -170,7 +170,7 @@ document.getElementById('submit').addEventListener('click', () => {
 
                     if(data.trim() == "err") {
 
-                        window.location.href = "error.php";
+                        window.location.href = "error";
 
                         document.querySelector('#in2').value = "";
                         document.querySelector('#in3').value = "";
@@ -210,7 +210,7 @@ document.getElementById('submit').addEventListener('click', () => {
                         document.querySelector('#in2').value = "";
                         document.querySelector('#in3').value = "";
 
-                        window.location.href = "user.php";
+                        window.location.href = "user";
                         
                     }
 
@@ -240,7 +240,7 @@ document.getElementById('submit').addEventListener('click', () => {
 
                     if(data.trim() == "err") {
 
-                        window.location.href = "error.php";
+                        window.location.href = "error";
 
                         document.querySelector('#in2').value = "";
                         document.querySelector('#in3').value = "";
@@ -280,7 +280,7 @@ document.getElementById('submit').addEventListener('click', () => {
                         document.querySelector('#in2').value = "";
                         document.querySelector('#in3').value = "";
 
-                        window.location.href = "user.php";
+                        window.location.href = "user";
                         
                     }
 

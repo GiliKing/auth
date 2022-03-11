@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
 
             if(data.trim() == "yes") {
 
-                window.location.href = "user.php";
+                window.location.href = "user";
 
                 // yes verified
 

@@ -16,10 +16,10 @@
         <nav>
             <ul>
                 <li class="link1">
-                    <a href="user.php">Home</a>
+                    <a href="user">Home</a>
                 </li>
                 <li class="link3">
-                <a href="logout.php">Sign Out</a>
+                <a href="logout">Sign Out</a>
                 </li>
             </ul>
         </nav>
@@ -37,7 +37,7 @@
 
                 echo "
                 <h1>Your Email is not verified</h1>
-                <a href='verify.php'>Click Here To Verify</a>
+                <a href='verify'>Click Here To Verify</a>
                 ";
                 
             } 

@@ -1,4 +1,3 @@
-
 <?php
 
 $auth = new stdClass();
@@ -7,11 +6,14 @@ $auth->auth = "";
 
 setcookie('auth', json_encode($auth), time() - 3600);
 
-$_SESSION = [];
+session_start();
 
-session_destroy();
+$_SESSION['users']['name1'] = '';
+$_SESSION['users']['email1'] = '';
 
-header("location: index.php");
+session_unset();
+
+header("location: index");
 
 
 ?>

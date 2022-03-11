@@ -100,11 +100,9 @@ document.getElementById('submit').addEventListener('click', () => {
             },
             success: function(data) {
 
-                alert(data.trim());
-
                 if(data.trim() == "err") {
 
-                    window.location.href = "error.php";
+                    window.location.href = "error";
 
                     document.querySelector('#in1').value = "";
                     document.querySelector('#in2').value = "";
@@ -136,7 +134,7 @@ document.getElementById('submit').addEventListener('click', () => {
                     document.querySelector('#in3').value = "";
                     document.querySelector('#in4').value = "";
 
-                    window.location.href = "user.php";
+                    window.location.href = "user";
                     
                 }
 
