@@ -356,20 +356,10 @@ function verifyOnly($email, $verify) {
         
                         $_SESSION['users']['email1'] = $_SESSION['users']['email'];
         
-                        $verified = $_SESSION['users']['verify'];
+                        $_SESSION['users']['token_tok'] = $_SESSION['users']['token'];
 
-                        if($verified == 0) {
+                        $_SESSION['users']['verify1'] = $_SESSION['users']['verify'];
 
-                            $_SESSION['users']['verify1'] = $_SESSION['users']['verify'];
-
-                            $_SESSION['users']['token_tok'] = $_SESSION['users']['token'];
-
-                        } else {
-
-                            $_SESSION['users']['verify1'] = $_SESSION['users']['verify'];
-
-                        }
-        
                         echo "yes";
 
 
