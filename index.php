@@ -18,12 +18,30 @@
                 <li class="link1">
                     <a href="index">Home</a>
                 </li>
-                <li class="link2">
-                    <a href="login">Login</a>
+
+                <li class="link4">
+                    <a href="user">Dashboard</a>
                 </li>
-                <li class="link3">
-                <a href="register">Register</a>
-                </li>
+
+                    <?php 
+
+                        session_start();
+
+                        if(!isset($_SESSION['users']['email1'])) {
+
+                            echo'
+                            <li class="link2">
+                                <a href="login">Login</a>
+                            </li>
+                            <li class="link3">
+                            <a href="Register">Register</a>
+                            </li>
+                            ';
+                        }
+
+                    ?>
+
+                
             </ul>
         </nav>
 
@@ -31,7 +49,7 @@
         <br>
 
         <div class="body">
-            <h1>Guest Users</h1>
+            <h1>Welcome To Authentication</h1>
             <p>ok</p>
         </div>
 
