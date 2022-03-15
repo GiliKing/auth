@@ -33,3 +33,28 @@ window.addEventListener('load', () => {
 
 
 })
+
+
+document.querySelector(".link3").addEventListener('click', () => {
+
+    let token = document.getElementById("hid").value.trim();
+
+    $.ajax({
+        url: 'logout.php',
+        method: "POST",
+        data: {
+            'token_logout': token,
+        },
+        success: (data) => {
+
+            if(data.trim() == "yes") {
+                window.location.href = "index";
+            }
+
+            if(data.trim() == "no") {
+                window.location.href = "error";
+            }
+
+        }
+    })
+})

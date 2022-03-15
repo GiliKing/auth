@@ -11,8 +11,8 @@ form {
     justify-content: space-around;
     flex-direction: column;
     border-radius: 5px;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: burlywood;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -67,4 +67,14 @@ input, button {
     border-radius: 20px;
     outline: none;
     border: none;
+}
+
+/* media query */
+
+@media (max-width: 425px) {
+    form {
+        margin-top: 20%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }

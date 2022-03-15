@@ -55,8 +55,8 @@ li.link1 {
 
 li.link2 {
     flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 50px;
+    flex-shrink: 1;
+    flex-basis: 200px;
     font-size: 20px;
 }
 
@@ -65,6 +65,35 @@ li.link3 {
     font-size: 20px;
 }
 
+li.link5 {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+li.link4 {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1000px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+
 div.body {
     margin-top: 20px;
 }
+
+/* media query */
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+
+/* end of media query */

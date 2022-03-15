@@ -41,6 +41,7 @@
         <div class="err4"></div>
 
         <button type="button" id="submit" >Submit</button>
+        <span>Or <a href="login">Sign in</a> if you have an account </span>
     </form>
     
     <script src="js/jquery.min.js"></script>

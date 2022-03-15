@@ -39,6 +39,7 @@
         <span><input type="checkbox" name="remember">Remember me</span>
 
         <button type="button" id="submit">Submit</button>
+        <span>Or <a href="register">Signup</a> if you dont have an account </span>
     </form>
     
 

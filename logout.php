@@ -1,19 +1,45 @@
+
 <?php
 
-$auth = new stdClass();
+// logout the user
+if(isset($_POST['token_logout'])) {
 
-$auth->auth = "";
+    session_start();
 
-setcookie('auth', json_encode($auth), time() - 3600);
+    $token_sess  = htmlspecialchars(trim($_SESSION['token2']));
 
-session_start();
+    $token_logout = htmlspecialchars(trim($_POST['token_logout']));
 
-$_SESSION['users']['name1'] = '';
-$_SESSION['users']['email1'] = '';
+    if($token_sess == $token_logout) {
 
-session_unset();
+        $auth = new stdClass();
 
-header("location: index");
+        $auth->auth = "";
+
+        setcookie('auth', json_encode($auth), time() - 3600);
+
+
+        $_SESSION['users']['name1'] = '';
+        $_SESSION['users']['email1'] = '';
+
+        session_unset();
+
+
+        echo "yes";
+
+
+
+    } else {
+
+        echo "no";
+
+    }
+
+
+} else {
+    
+    header('location: index');
+}
 
 
 ?>

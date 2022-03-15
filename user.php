@@ -15,11 +15,25 @@
         <!-- simple nav -->
         <nav>
             <ul>
-                <li class="link1">
-                    <a href="user">Home</a>
+                <li class="link5">
+                    <a href="index">Home</a>
+                </li>
+                <li class="link4">
+                    <a href="User">Dashboard</a>
                 </li>
                 <li class="link3">
-                <a href="logout">Sign Out</a>
+                    <?php
+
+                        $token = bin2hex(random_bytes(50));
+
+                        $_SESSION['token2'] = $token;
+
+                        echo '
+                            <input type="hidden" id="hid" value="'.$token.'">
+                        ';
+
+                    ?>
+                <a>Sign Out</a>
                 </li>
             </ul>
         </nav>
