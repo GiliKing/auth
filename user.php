@@ -19,7 +19,7 @@
                     <a href="index">Home</a>
                 </li>
                 <li class="link4">
-                    <a href="User">Dashboard</a>
+                    <a href="user">Dashboard</a>
                 </li>
                 <li class="link3">
                     <?php

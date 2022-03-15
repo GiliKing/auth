@@ -34,7 +34,7 @@
                                 <a href="login">Login</a>
                             </li>
                             <li class="link3">
-                            <a href="Register">Register</a>
+                            <a href="register">Register</a>
                             </li>
                             ';
                         }
