@@ -29,7 +29,7 @@ if(!isset($_SESSION['users']['email1'])) {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+        $mail->Host       = 'smtp.zoho.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->Username   = 'christianogili@zohomail.com';                     //SMTP username
         $mail->Password   = 'Hoh9090#';                               //SMTP password
