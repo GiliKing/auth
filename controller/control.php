@@ -41,7 +41,7 @@ function register($name, $email, $password, $token_ajax) {
         if($result) {
     
             $_SESSION['users']['name1'] = $username_entry;
-            $_SESSION['users']['email1'] = $username_entry;
+            $_SESSION['users']['email1'] = $email_entry;
             $_SESSION['users']['verify1'] = $verify;
     
             echo "yes";
